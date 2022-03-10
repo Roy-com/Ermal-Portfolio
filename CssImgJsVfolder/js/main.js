@@ -163,6 +163,16 @@
   });
 
   /**
+   * Preloader
+   */
+  let preloader = select("#preloader");
+  if (preloader) {
+    window.addEventListener("load", () => {
+      setTimeout(preloader.remove(), 155000);
+      clearTimeout();
+    });
+  }
+  /**
    * Clients Slider
    */
   new Swiper(".clients-slider", {
