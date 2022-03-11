@@ -292,6 +292,69 @@
     },
   });
 
+  // change div colour
+  document.querySelector(".icon-boxex1").onmouseover = function () {
+    // document.querySelector(".headingser").style.bacolor = "red";
+    document.querySelector(".headingser1").style.color = "#484895";
+    document.querySelector(".headingser1").style.fontWeight = "900";
+  };
+  document.querySelector(".icon-boxex1").onmouseout = function () {
+    // document.querySelector(".headingser").style.bacolor = "#2c4964";
+    // document.querySelector(".headingser").style.backgroundColor = "red";
+    document.querySelector(".headingser1").style.color = "#2c4964";
+    document.querySelector(".headingser1").style.fontWeight = "600";
+  };
+
+  document.querySelector(".icon-boxex2").onmouseover = function () {
+    // document.querySelector(".headingser").style.bacolor = "red";
+    document.querySelector(".headingser2").style.color = "#484895";
+    document.querySelector(".headingser2").style.fontWeight = "900";
+  };
+  document.querySelector(".icon-boxex2").onmouseout = function () {
+    // document.querySelector(".headingser").style.bacolor = "#2c4964";
+    // document.querySelector(".headingser").style.backgroundColor = "red";
+    document.querySelector(".headingser2").style.color = "#2c4964";
+    document.querySelector(".headingser2").style.fontWeight = "600";
+  };
+
+  document.querySelector(".icon-boxex3").onmouseover = function () {
+    // document.querySelector(".headingser").style.bacolor = "red";
+    document.querySelector(".headingser3").style.color = "#484895";
+    document.querySelector(".headingser3").style.fontWeight = "900";
+  };
+  document.querySelector(".icon-boxex3").onmouseout = function () {
+    // document.querySelector(".headingser").style.bacolor = "#2c4964";
+    // document.querySelector(".headingser").style.backgroundColor = "red";
+    document.querySelector(".headingser3").style.color = "#2c4964";
+    document.querySelector(".headingser3").style.fontWeight = "600";
+  };
+
+  document.querySelector(".icon-boxex4").onmouseover = function () {
+    // document.querySelector(".headingser").style.bacolor = "red";
+    document.querySelector(".headingser4").style.color = "#484895";
+    document.querySelector(".headingser4").style.fontWeight = "900";
+  };
+  document.querySelector(".icon-boxex4").onmouseout = function () {
+    // document.querySelector(".headingser").style.bacolor = "#2c4964";
+    // document.querySelector(".headingser").style.backgroundColor = "red";
+    document.querySelector(".headingser4").style.color = "#2c4964";
+    document.querySelector(".headingser4").style.fontWeight = "600";
+  };
+
+  document.querySelector(".icon-boxex5").onmouseover = function () {
+    // document.querySelector(".headingser").style.bacolor = "red";
+    document.querySelector(".headingser5").style.color = "#484895";
+    document.querySelector(".headingser5").style.fontWeight = "900";
+  };
+  document.querySelector(".icon-boxex5").onmouseout = function () {
+    // document.querySelector(".headingser").style.bacolor = "#2c4964";
+    // document.querySelector(".headingser").style.backgroundColor = "red";
+    document.querySelector(".headingser5").style.color = "#2c4964";
+    document.querySelector(".headingser5").style.fontWeight = "600";
+  };
+
+  // change tech div colour
+
   /**
    * Animation on scroll
    */
@@ -306,4 +369,58 @@
   window.addEventListener("load", () => {
     aos_init();
   });
+
+  document.getElementById("icon-boxex1t").onmouseover = function () {
+    document.getElementById("headingser1t").style.color = "#009961";
+    document.getElementById("headingser1t").style.fontWeight = "900";
+  };
+  document.getElementById("icon-boxex1t").onmouseout = function () {
+    document.getElementById("headingser1t").style.color = "#2c4964";
+    document.getElementById("headingser1t").style.fontWeight = "600";
+  };
+
+  document.getElementById("icon-boxex2t").onmouseover = function () {
+    document.getElementById("headingser2t").style.color = "#009961";
+    document.getElementById("headingser2t").style.fontWeight = "900";
+  };
+  document.getElementById("icon-boxex2t").onmouseout = function () {
+    document.getElementById("headingser2t").style.color = "#2c4964";
+    document.getElementById("headingser2t").style.fontWeight = "600";
+  };
+
+  document.getElementById("icon-boxex3t").onmouseover = function () {
+    document.getElementById("headingser3t").style.color = "#009961";
+    document.getElementById("headingser3t").style.fontWeight = "900";
+  };
+  document.getElementById("icon-boxex3t").onmouseout = function () {
+    document.getElementById("headingser3t").style.color = "#2c4964";
+    document.getElementById("headingser3t").style.fontWeight = "600";
+  };
+
+  document.getElementById("icon-boxex4t").onmouseover = function () {
+    document.getElementById("headingser4t").style.color = "#009961";
+    document.getElementById("headingser4t").style.fontWeight = "900";
+  };
+  document.getElementById("icon-boxex4t").onmouseout = function () {
+    document.getElementById("headingser4t").style.color = "#2c4964";
+    document.getElementById("headingser4t").style.fontWeight = "600";
+  };
+
+  document.getElementById("icon-boxex5t").onmouseover = function () {
+    document.getElementById("headingser5t").style.color = "#009961";
+    document.getElementById("headingser5t").style.fontWeight = "900";
+  };
+  document.getElementById("icon-boxex5t").onmouseout = function () {
+    document.getElementById("headingser5t").style.color = "#2c4964";
+    document.getElementById("headingser5t").style.fontWeight = "600";
+  };
+
+  document.getElementById("icon-boxex6t").onmouseover = function () {
+    document.getElementById("headingser6t").style.color = "#009961";
+    document.getElementById("headingser6t").style.fontWeight = "900";
+  };
+  document.getElementById("icon-boxex6t").onmouseout = function () {
+    document.getElementById("headingser6t").style.color = "#2c4964";
+    document.getElementById("headingser6t").style.fontWeight = "600";
+  };
 })();
