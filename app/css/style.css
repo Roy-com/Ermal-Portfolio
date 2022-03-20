@@ -987,6 +987,7 @@ section {
   color: #444444;
   background: #fafbff;
   padding: 5px;
+  margin-top: 32px;
 }
 .contact .info-box i {
   font-size: 38px;
@@ -1759,14 +1760,17 @@ section {
 }
 .adressmapdisplay {
   display: flex;
+  flex-direction: column;
   margin-bottom: 32px;
+  padding-left: 17px;
 }
 .col-lg-6 {
   flex: 0 0 auto;
   width: 47%;
 }
 .widthcall {
-  width: 240px;
+  /* width: 240px; */
+  padding-left: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -1875,4 +1879,14 @@ span.button {
   .button {
     font-size: 1rem;
   }
+}
+
+.mapmargintop1 {
+  margin-top: 15px;
+}
+.mapmargintop2 {
+  margin-top: 30px;
+}
+.mapmargintop3 {
+  margin-top: 30px;
 }
